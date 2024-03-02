@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mapperx-test-case": {
+      "hosting": {
+        "test-app": [
+          "mapperx-test-case"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mapperx-test-case"
+  }
+}
