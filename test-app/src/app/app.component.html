@@ -2,14 +2,14 @@
   <div class="min-w-full bg-slate-200">
     <div
       class="relative z-100 flex justify-between items-center bg-slate-50 dark:text-gray-100 dark:bg-[#0d1117] p-5 font-semibold text-lg shadow-lg dark:shadow-black/30 shadow-slate-200">
-      <div class="flex justify-between items-center gap-x-4">
+      <div class="flex justify-between items-center gap-4 max-[600px]:flex-col max-[600px]:items-start">
         <a class="p-2 bg-green-600 rounded-md text-white hover:bg-green-700" href="/">View Card</a>
         <a class="p-2 rounded-md border border-gray-300 dark:border-gray-200 dark:text-gray-300 dark:hover:text-white dark:hover:border-white hover:border-gray-400"
           href="/protected">Try
           Protected Page</a>
       </div>
 
-      <div class="flex justify-between items-center gap-x-4">
+      <div class="flex justify-between items-center gap-4 max-[600px]:flex-col max-[600px]:items-start">
         <button *ngIf="isUserLoggedIn()" (click)="signOut()" class="dark:text-gray-300 dark:hover:text-white">
           Sign Out
         </button>
