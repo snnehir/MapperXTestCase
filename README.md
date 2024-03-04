@@ -13,7 +13,12 @@ Visit this website for live demo: https://mapperx-test-case.web.app/
 
 ### GitHub Sponsors Card 
 View original page [here](https://github.com/#:~:text=out%20pull%20requests-,GitHub,-Sponsors%20lets%20you)
+
 ![github-sponsors-card-gif](https://github.com/snnehir/MapperXTestCase/blob/master/readme-images/github-sponsors-card.gif)
+
+Smaller screen view:
+
+![card-comparison-img](https://github.com/snnehir/MapperXTestCase/blob/master/readme-images/card-comparison.png)
 
 
 ### Login
