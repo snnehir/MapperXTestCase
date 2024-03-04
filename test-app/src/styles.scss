@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+    url('./assets/fonts/Mona Sans/Mona-Sans.woff2') format('woff2 supports variations'),
+    url('./assets/fonts/Mona Sans/Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+html {
+  font-family: 'Mona Sans';
+}
+
+/* contributer-list contributer card animation */
+@keyframes FadeIn {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  100% {
+    display: flex;
+    opacity: 1;
+  }
+}

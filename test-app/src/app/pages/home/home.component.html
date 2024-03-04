@@ -1,0 +1,44 @@
+<div class="pt-8 px-4 max-w-[1280px] mx-auto ">
+
+  <div class="overflow-hidden rounded rounded-xl mb-4 md:mb-8" (mousemove)="onMouseMove($event)"
+    (mouseleave)="onMouseLeave()" #container>
+    <div class="text-white md:flex rounded-xl bg-[#161b22] border border-[#30363d] 
+                relative justify-between z-10 h-full flex-row">
+
+      <div class="md:flex flex-col flex-1 p-8 sm:p-10 lg:py-16 lg:pl-16 lg:pr-32 md:w-1/2 px-4 justify-between">
+        <p class="font-medium text-[#ebf5ff80] text-xl lg:text-2xl mb-6">
+          <span class="non-italic text-white">GitHub Sponsors</span>
+          lets you support your favorite open
+          source maintainers and projects.
+        </p>
+
+        <div>
+          <a class="group relative z-30 inline-block font-semibold text-white py-1 md:text-xl text-base 
+                    after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[calc(100%-16px)] after:transition-all after:duration-300 
+                    cursor-pointer" href="https://github.com/sponsors">
+            Invest with GitHub Sponsors
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="inline-block overflow-visible transition transform translate-x-0 duration-200 group-hover:translate-x-1 "
+              width="
+              16" height="16" viewBox="0 0 16 16" fill="none">
+              <path fill="currentColor"
+                d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z">
+              </path>
+              <path stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="relative overflow-hidden md:w-1/2 px-4 rounded rounded-right-xl z-30">
+        <app-contributer-list [contributers]="shuffledContributers"></app-contributer-list>
+      </div>
+
+      <div class="absolute events-none z-20 w-[650px] h-[650px] top-[-650px] left-[-650px]
+                  bg-[#f778ba] translate-x-[var(--mouse-x)] translate-y-[var(--mouse-y)] 
+                  blur-[180px] rounded rounded-[300px] mix-blend-soft-light" #stoplight></div>
+    </div>
+  </div>
+
+
+
+</div>
