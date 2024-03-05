@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 2. Create your own Firebase project in [firebase console](https://console.firebase.google.com) and enable `Email/Password` sign-in authentication method.
 
-3. For security concerns, `environments` folder is added on `.gitginore` file. Run `ng g environments` to create `environments` folder and add your Firebase configuration inside `environment.development.ts` file as below.
+3. For security concerns, the `environments` folder is added on `.gitginore` file. Run `ng g environments` to create `environments` folder and add your Firebase configuration inside `environment.development.ts` file as below:
 
 ```typescript
 import { FirebaseOptions } from "@angular/fire/app";
@@ -27,6 +27,7 @@ export const environment: { firebase: FirebaseOptions } = {
 
 4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+5. Run `ng deploy` for deploying your application to production. (For more information, visit [docs](https://angular.io/cli/deploy).)
 
 ## Live Demo
 Visit this website for live demo: https://mapperx-test-case.web.app/
