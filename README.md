@@ -49,13 +49,8 @@ Smaller screen view:
 
 
 ### Sign Up
-![signu-up-img](https://github.com/snnehir/MapperXTestCase/blob/master/readme-images/sign-up.jpg)
+![sign-up-img](https://github.com/snnehir/MapperXTestCase/blob/master/readme-images/sign-up.jpg)
 
 ### Sign Up Validations
 ![sign-up-validations-img](https://github.com/snnehir/MapperXTestCase/blob/master/readme-images/sign-up-validations.jpg)
 
-## Notes
-In `app.routes.ts` file, `/protected` route is configured such that unauthorized users cannot view the page. For visiting the [protected page](https://mapperx-test-case.web.app/protected), user must be logged in. 
-For demo purposes, you can use this account to login:  
-- email: snnehir21@gmail.com
-- password: Abc123
